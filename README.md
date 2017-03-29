@@ -1,16 +1,16 @@
-## Intro to Rspec
+# Intro to Rspec
 
-### Overivew
+## Overview
 
 Ever wanted to write some RSpec tests for a Ruby project, but didn't know where to start? This is for you!
 
-### Objectives
+## Objectives
 
 + Understand the purpose of testing our code
 + Setup a test environment using RSpec
 + Write tests for existing code
 
-### Why Write Tests?
+## Why Write Tests?
 
 Pretend you’ve been given a code challenge. You have to write a method that takes in a number. If the number is divisible by 3, the method should return ‘Fizz’. If it’s divisible by 5, it should return ‘Buzz’. If it’s divisible by both, it should return ‘FizzBuzz’. If none of the above is true, it should just return the number.
 
@@ -32,7 +32,7 @@ Now that you have your expectations written out, you write out your method defin
 
 The problem is, you’re a programmer. Wouldn’t it be nice if you could write out your expectations AND test your code all in one go? Let’s do it!
 
-### Implementing a Test Framework from Scratch
+## Implementing a Test Framework from Scratch
 
 Imagine writing a method that would run your code for you and output a message based on the result. Say we wanted a method to check that calling fizz_buzz(3) actually returns "Fizz" .
 
@@ -354,6 +354,6 @@ end
 ```
 Very nice!
 
-### Conclusion
+## Conclusion
 
 Hopefully, you now see the benefits of TDD using Rspec. Learning the Domain-Specific-Language can take some time, but once you break it down, it makes your life a lot easier!
